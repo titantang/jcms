@@ -1,8 +1,5 @@
 package com.buaaer.jcms;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;

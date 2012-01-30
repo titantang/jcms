@@ -5,6 +5,7 @@ import java.util.Date;
 public class JobDefinition {
 	private long id;
 	private String name;
+	private String command;
 	private String parameter;
 	private boolean runOnce;
 	private String period;
@@ -56,6 +57,14 @@ public class JobDefinition {
 
 	public Date getFirstTime() {
 		return firstTime;
+	}
+
+	public String getCommand() {
+		return command;
+	}
+
+	public void setCommand(String command) {
+		this.command = command;
 	}
 
 }
